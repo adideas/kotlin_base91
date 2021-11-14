@@ -87,7 +87,7 @@ object Base91 {
             }
             if (value + 1 > 0) {
                 val a = byte or (value shl shift)
-                
+                // val a = byte or value shl shift
                 
                 output = output + ((a and 255).toChar())
             }
